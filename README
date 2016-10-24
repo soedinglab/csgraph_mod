@@ -1,0 +1,11 @@
+==============
+INSTALLATION
+==============
+
+1. git clone https://github.com/soedinglab/csgraph_mod
+2. cd into the dir
+3. pip install .
+4. ???
+5. profit
+
+TODO: add license, edit setup.py to remove Christian's traces
