@@ -10,10 +10,10 @@ except ImportError:
 
 
 __NAME__ = "csgraph_mod"
-__VERSION__ = "0.0.2"
-__AUTHOR__ = "Christian Roth"
-__AUTHOR_EMAIL__ = "christian.roth@mpibpc.mpg.de"
-__DESCRIPTION__ = "An implementation of an efficient interval tree in python."
+__VERSION__ = "0.0.1"
+__AUTHOR__ = "Nikolaos Papadopoulos, Johannes Soeding"
+__AUTHOR_EMAIL__ = "npapado@mpibpc.mpg.de"
+__DESCRIPTION__ = "Modified Dijkstra algorithm from the shortest_path.pyx collection of SciPy"
 __LICENSE__ = "BSD"
 
 
