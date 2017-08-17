@@ -10,7 +10,7 @@ except ImportError:
 
 
 __NAME__ = "csgraph_mod"
-__VERSION__ = "0.0.1"
+__VERSION__ = "0.0.2"
 __AUTHOR__ = "Nikolaos Papadopoulos, Johannes Soeding"
 __AUTHOR_EMAIL__ = "npapado@mpibpc.mpg.de"
 __DESCRIPTION__ = "Modified Dijkstra algorithm from the shortest_path.pyx collection of SciPy"
