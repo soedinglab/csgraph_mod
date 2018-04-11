@@ -17,3 +17,13 @@ We have modified the implementation of Dijkstra's algorithm contained in the [cs
 * [`numpy`](www.numpy.org)
 * [`scipy`](https://www.scipy.org/)
 * [`cython`](http://cython.org/)
+
+### Known problems
+
+#### Missing `numpy` headers
+
+In some cases (especially on Mac computers), the installer may complain that it cannot find some `numpy` headers:
+
+    fatal error: 'numpy/arrayobject.h' file not found
+
+In this case, try exporting the headers yourself. Run `export CFLAGS="-I <python_loc>/site-packages/numpy/core/include $CFLAGS"`, where `<python_loc>` is the directory where python is installed - something like `/usr/local/lib/python3.6`.
