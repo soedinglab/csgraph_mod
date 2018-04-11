@@ -1,6 +1,7 @@
 import os
 
 from setuptools import setup, Extension, find_packages
+import numpy
 
 try:
     from Cython.Build import cythonize
@@ -39,5 +40,6 @@ setup(
     license=__LICENSE__,
     ext_modules=extensions,
     packages=find_packages(),
+    include_dirs=[numpy.get_include()],
     test_suite="nose.collector"
 )

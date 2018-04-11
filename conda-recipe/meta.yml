@@ -1,0 +1,31 @@
+package:
+  name: csgraph_mod
+  version: "1.0"
+
+build:
+  number: 0
+
+source:
+  fn: csgraph_mod-1.0.tar.gz
+  url: https://github.com/soedinglab/csgraph_mod/archive/csgraph_mod-1.0.tar.gz
+  sha256: 4a8d36832deebd16585834b75b6ce5d2d1d5a831919162c06a67c476fbf04351
+
+requirements:
+  build:
+  - python
+  - pip
+
+  run:
+  - libgcc
+  - google-sparsehash
+  - sqlite
+
+test:
+  commands:
+    - ABYSS --version
+
+about:
+  home: http://www.bcgsc.ca/platform/bioinfo/software/abyss
+  license: GPL3
+  license_file: LICENSE
+  summary: Assembly By Short Sequences - a de novo, parallel, paired-end sequence assembler
